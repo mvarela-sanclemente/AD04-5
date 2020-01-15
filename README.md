@@ -10,7 +10,7 @@ Este código de exemplo imprime o nome tódolos xogadores gardados na base de da
     //Collemos a sesión de Hibernate
     Session session = HibernateUtil.getSessionFactory().openSession();
     
-    //Facemos unha consulta en SQL
+    //Facemos unha consulta
     Query q1 = session.createQuery("SELECT x FROM Xogador x");
     List<Xogador> xogadores1 = q1.list();
     for(Xogador xogador:xogadores1){
