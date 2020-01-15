@@ -1,4 +1,6 @@
-# Uso de SQL con Hibernate
+# Métodos de Querys en Hibernate
+
+> As querys non son en SQL, senón en HQL inda que se parezan moito.
 
 ## Consulta de varios obxectos
 
